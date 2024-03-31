@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .loader{
+            width: 200px;
+            height: 200px;
+            border: 20px solid #a1bb2c;
+            border-radius: 50%;
+            border-top: 20px solid #23b9c9;
+            animation-name: spinAnimate;
+            animation-duration: 1s;
+            animation-delay:0s ;
+            animation-iteration-count:infinite ;
+            animation-direction:normal ;
+            
+
+
+            
+        }
+        @keyframes spinAnimate {
+            from{
+                transform: rotate(0deg);
+            }
+            to{
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="loader">
+
+    </div>
+</body>
+</html>
